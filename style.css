@@ -1,0 +1,75 @@
+#body{
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+    padding: 0;        
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: 0.4s ease-in-out;
+}
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 23px;
+    }
+}
+#logo{
+    width: 80px;
+}
+.sections{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    .propagation{
+        width: 600px;
+    }
+    h1{
+        font-size: 73px;
+    }
+    .redessociais{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .redessociais i{
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+#navegation img{
+    width: 36px;
+
+}
+#navegation{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    input{
+        display: none;
+    }
+}
+#produtoselecionado{
+    transition: 1.5s;
+    padding-left: 60px;
+}
+label:hover{
+    -webkit-animation:slide-top .6s cubic-bezier(.25,.46,.45,.94) both;animation:slide-top .6s cubic-bezier(.25,.46,.45,.94) both;
+}
+
+
+@-webkit-keyframes slide-top{
+0%{-webkit-transform:translateY(0);transform:translateY(0)}
+100%{-webkit-transform:translateY(-15px);transform:translateY(-15px)}
+}
+@keyframes slide-top{
+0%{-webkit-transform:translateY(0);transform:translateY(0)}
+100%{-webkit-transform:translateY(-15px);transform:translateY(-15px)}
+}
